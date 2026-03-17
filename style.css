@@ -82,7 +82,9 @@ a:hover { color: var(--red-dark); }
   color: var(--white);
   text-align: center;
   padding: 120px 20px;
-  background-image: linear-gradient(135deg, var(--earth) 0%, var(--earth-light) 50%, var(--red-dark) 100%);
+  background-image: linear-gradient(rgba(61,43,31,0.7), rgba(61,43,31,0.7)), url('images/singletrackonlySmall.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .hero h1 {
